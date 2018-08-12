@@ -1,0 +1,25 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Hoc SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Note: Hoc SASS\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newusers/newusers.github.io.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Thuy Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newusers/newusers.github.io/issues"
+  },
+  "homepage": "https://github.com/newusers/newusers.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
