@@ -12,17 +12,17 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({
             stream: true
         }))
-})
+});
 
 gulp.task('browserSync', function () {
     browserSync.init({
         server: {
             baseDir: 'app'
-        },
+        }
     })
-})
+});
 
 gulp.task('watch',['browserSync','sass'] function () {
-    gulp.watch('app/scss/*.scss', gulp.parallel('sass'));
+    gulp.watch('app/scss/*.scss', gulp.parallel('sass'))
     // Other watchers
-})
+});
